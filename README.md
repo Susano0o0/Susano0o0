@@ -4,8 +4,8 @@
 
 **B.Sc. Computer Science · TU Berlin**
 
-Robotics simulation, motion planning and full-stack web development.
-Building things at the intersection of ROS 2, Unity and the browser.
+Robotics simulation, motion planning, full-stack web development and real-time 3D on the web.
+Building things at the intersection of ROS 2, Unity and WebGL.
 
 [![Email](https://img.shields.io/badge/alexanderwiebe.98%40gmail.com-0d1117?style=flat&logo=gmail&logoColor=f85149)](mailto:alexanderwiebe.98@gmail.com)
 [![Location](https://img.shields.io/badge/Berlin%2C%20Germany-0d1117?style=flat&logo=googlemaps&logoColor=388bfd)](https://maps.app.goo.gl/Berlin)
@@ -97,11 +97,11 @@ A universal pick-and-place interface for three real robot arms (Franka Panda, Ki
 
 ### Algorithms and numerical methods
 
-| Repository                                                                                   | What it demonstrates                                                                                                                                                                        |
-| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**sorting-visualizer-c**](https://github.com/wiebe-alexander/sorting-algorithms)            | Bubble, selection, insertion, merge, quick and heap sort in C, with animated GIFs rendered by a Python recorder. The architecture keeps the C algorithms free of any graphics dependencies. |
-| [**pathfinding-visualizer-java**](https://github.com/wiebe-alexander/pathfinding-algorithms) | BFS, Dijkstra, Greedy Best-First and A* on a grid, plus RRT and RRT* in continuous space. Rendered to GIFs using only the JDK. A direct link to the planners inside MoveIt and OMPL.        |
-| [**numerical-methods-python**](https://github.com/wiebe-alexander/numerical-methods)         | Interpolation (Runge phenomenon, cubic splines), FFT from scratch against an O(N²) DFT, and gradient descent / Newton on the Rosenbrock function. All verified against NumPy references.    |
+| Repository                                                                              | What it demonstrates                                                                                                                                                                        |
+| --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**sorting-algorithms**](https://github.com/wiebe-alexander/sorting-algorithms)         | Bubble, selection, insertion, merge, quick and heap sort in C, with animated GIFs rendered by a Python recorder. The architecture keeps the C algorithms free of any graphics dependencies. |
+| [**pathfinding-algorithms**](https://github.com/wiebe-alexander/pathfinding-algorithms) | BFS, Dijkstra, Greedy Best-First and A* on a grid, plus RRT and RRT* in continuous space. Rendered to GIFs using only the JDK. A direct link to the planners inside MoveIt and OMPL.        |
+| [**numerical-methods**](https://github.com/wiebe-alexander/numerical-methods)           | Interpolation (Runge phenomenon, cubic splines), FFT from scratch against an O(N²) DFT, and gradient descent / Newton on the Rosenbrock function. All verified against NumPy references.    |
 
 ---
 
