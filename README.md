@@ -16,7 +16,7 @@ Building things at the intersection of ROS 2, Unity and WebGL.
 
 ## About
 
-I am a Computer Science B.Sc. student at TU Berlin with a background in robotics simulation and software engineering. My bachelor's thesis was a universal robot control interface in Unity and ROS 2 for pick-and-place automation across three real robot arms (Franka Panda, Kinova Gen3, UR5e), covering the full pipeline from motion planning with MoveIt 2 and OMPL down to gripper control and a C#/Python bridge.
+I am a Computer Science B.Sc. student at TU Berlin with a background in robotics simulation and software engineering. My bachelor's thesis was a universal robot control interface in Unity and ROS 2 for pick-and-place automation for any robot arms (tested on Franka Panda URFD model), covering the full pipeline from motion planning with MoveIt 2 and OMPL down to gripper control and a C#/Python bridge.
 
 Lately most of my building happens in the browser: interactive 3D scenes with React Three Fiber and Three.js, where the same problems I met in simulation (geometry, camera control, level of detail, frame budgets) show up again, just with a much smaller performance budget.
 
@@ -75,7 +75,7 @@ I work with AI coding assistants as a daily part of my workflow, for pair progra
 
 </div>
 
-An interactive night forest scene, built as a 3D site menu. Procedural terrain driven by a single height function shared by the ground, the road and every prop, so nothing ever floats or clips. A road ribbon draped over that terrain, 2600 instanced spruce trees rendered in one draw call with a GPU wind shader, positional audio synthesized entirely in the Web Audio API without a single sound file, and a graphics quality switch that scales render resolution and post-processing for weaker machines.
+An interactive nighttime forest scene implemented as a 3D website menu. A procedurally generated landscape controlled by a single elevation function, 2,600 fir trees rendered in a single call using a wind shader on the GPU, positional audio fully synthesized using the Web Audio API without a single sound file, and a graphics quality toggle that scales the rendering resolution and post-processing for less powerful computers.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-049ef4?style=flat&logo=threedotjs&logoColor=white)
@@ -87,7 +87,7 @@ An interactive night forest scene, built as a 3D site menu. Procedural terrain d
 
 ![Bachelor's Thesis preview](assets/robotic-simulation.gif)
 
-A universal pick-and-place interface for three real robot arms (Franka Panda, Kinova Gen3, UR5e). Motion planning through MoveIt 2 and OMPL, full gripper control, and a C#/Python bridge connecting Unity to ROS 2.
+A universal pick-and-place interface for any robot arm (tested on Franka Panda URFD model). Motion planning through MoveIt 2 and OMPL, full gripper control, and a C#/Python bridge connecting Unity to ROS 2.
 
 ![C#](https://img.shields.io/badge/C%23-512bd4?style=flat&logo=csharp&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776ab?style=flat&logo=python&logoColor=white)
