@@ -67,40 +67,48 @@ I work with AI coding assistants as a daily part of my workflow, for pair progra
 
 ## Projects
 
-### Real-time 3D on the web
-
-|                                                                                                                                                                                                                                                                                                                                                                                                             |                                                  |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| **Forest Road** · [live demo](https://forest-road.vercel.app)                                                                                                                                                                                                                                                                                                                                               | React Three Fiber + Three.js + TypeScript        |
-| An interactive night forest scene used as a 3D site menu. Procedural terrain with a single height function shared by ground, road and props, a road ribbon draped over that terrain, 2600 instanced spruces in one draw call with a GPU wind shader, positional audio synthesized entirely in the Web Audio API (no audio files), and a graphics quality switch that scales resolution and post-processing. | `TypeScript` `Three.js` `R3F` `GLSL` `Web Audio` |
-
-### Robotics
-
-|                                                                                                                                                               |                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| **Bachelor's Thesis: Universal Robot Control Interface**                                                                                                      | Unity + ROS 2 + MoveIt 2                 |
-| Universal pick-and-place interface for Franka Panda, Kinova Gen3 and UR5e. Motion planning via OMPL, full gripper control and a C#/Python Unity-ROS 2 bridge. | `C#` `Python` `ROS 2` `MoveIt 2` `Unity` |
-
-### Algorithms and numerical methods
-
-| Repository                                                                                  | What it demonstrates                                                                                                                                                                    |
-| ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**sorting-visualizer-c**](https://github.com/Susano0o0/sorting-visualizer-c)               | Bubble, selection, insertion, merge, quick and heap sort in C, with animated GIFs rendered by a Python recorder. Architecture keeps the C algorithms free of any graphics dependencies. |
-| [**pathfinding-visualizer-java**](https://github.com/Susano0o0/pathfinding-visualizer-java) | BFS, Dijkstra, Greedy Best-First and A* on a grid, plus RRT and RRT* in continuous space. Rendered to GIFs using only the JDK. Direct connection to the planners inside MoveIt/OMPL.    |
-| [**numerical-methods-python**](https://github.com/Susano0o0/numerical-methods-python)       | Interpolation (Runge phenomenon, cubic splines), FFT from scratch vs O(N²) DFT, and gradient descent / Newton on the Rosenbrock function. All verified against NumPy references.        |
-
----
-
-## What I use most
+### Forest Road
 
 <div align="center">
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=wiebe-alexander&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=388bfd&text_color=e6edf3&layout=compact&langs_count=8)
+[![Open live demo](https://img.shields.io/badge/OPEN%20LIVE%20DEMO-a371f7?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)](https://forest-road.vercel.app)
 
 </div>
+
+An interactive night forest scene, built as a 3D site menu. Procedural terrain driven by a single height function shared by the ground, the road and every prop, so nothing ever floats or clips. A road ribbon draped over that terrain, 2600 instanced spruce trees rendered in one draw call with a GPU wind shader, positional audio synthesized entirely in the Web Audio API without a single sound file, and a graphics quality switch that scales render resolution and post-processing for weaker machines.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat&logo=typescript&logoColor=white&color=8b949e)
+![Three.js](https://img.shields.io/badge/Three.js-0d1117?style=flat&logo=threedotjs&logoColor=white&color=8b949e)
+![React Three Fiber](https://img.shields.io/badge/R3F-0d1117?style=flat&logo=react&logoColor=white&color=8b949e)
+![GLSL](https://img.shields.io/badge/GLSL-0d1117?style=flat&color=8b949e)
+![Web Audio](https://img.shields.io/badge/Web%20Audio%20API-0d1117?style=flat&color=8b949e)
+
+### Bachelor's Thesis: Universal Robot Control Interface
+
+A universal pick-and-place interface for three real robot arms (Franka Panda, Kinova Gen3, UR5e). Motion planning through MoveIt 2 and OMPL, full gripper control, and a C#/Python bridge connecting Unity to ROS 2.
+
+![C#](https://img.shields.io/badge/C%23-0d1117?style=flat&logo=csharp&logoColor=white&color=8b949e)
+![Python](https://img.shields.io/badge/Python-0d1117?style=flat&logo=python&logoColor=white&color=8b949e)
+![ROS 2](https://img.shields.io/badge/ROS%202-0d1117?style=flat&logo=ros&logoColor=white&color=8b949e)
+![MoveIt 2](https://img.shields.io/badge/MoveIt%202-0d1117?style=flat&color=8b949e)
+![Unity](https://img.shields.io/badge/Unity-0d1117?style=flat&logo=unity&logoColor=white&color=8b949e)
+
+### Algorithms and numerical methods
+
+| Repository                                                                                        | What it demonstrates                                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**sorting-visualizer-c**](https://github.com/wiebe-alexander/sorting-visualizer-c)               | Bubble, selection, insertion, merge, quick and heap sort in C, with animated GIFs rendered by a Python recorder. The architecture keeps the C algorithms free of any graphics dependencies. |
+| [**pathfinding-visualizer-java**](https://github.com/wiebe-alexander/pathfinding-visualizer-java) | BFS, Dijkstra, Greedy Best-First and A* on a grid, plus RRT and RRT* in continuous space. Rendered to GIFs using only the JDK. A direct link to the planners inside MoveIt and OMPL.        |
+| [**numerical-methods-python**](https://github.com/wiebe-alexander/numerical-methods-python)       | Interpolation (Runge phenomenon, cubic splines), FFT from scratch against an O(N²) DFT, and gradient descent / Newton on the Rosenbrock function. All verified against NumPy references.    |
 
 ---
 
 ## Languages
 
-🇩🇪 German C1 &nbsp; 🇬🇧 English C1 &nbsp; 🇷🇺 Russian Native
+<div align="center">
+
+![German](https://img.shields.io/badge/German-C1-388bfd?style=for-the-badge&labelColor=0d1117)
+![English](https://img.shields.io/badge/English-C1-3fb950?style=for-the-badge&labelColor=0d1117)
+![Russian](https://img.shields.io/badge/Russian-Native-e3b341?style=for-the-badge&labelColor=0d1117)
+
+</div>
