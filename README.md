@@ -73,8 +73,6 @@ I work with AI coding assistants as a daily part of my workflow, for pair progra
 
 [![Forest Road preview](assets/forest-road.gif)](https://3d-forest-road.vercel.app/)
 
-[![Open live demo](https://img.shields.io/badge/OPEN%20LIVE%20DEMO-a371f7?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)](https://3d-forest-road.vercel.app/)
-
 </div>
 
 An interactive night forest scene, built as a 3D site menu. Procedural terrain driven by a single height function shared by the ground, the road and every prop, so nothing ever floats or clips. A road ribbon draped over that terrain, 2600 instanced spruce trees rendered in one draw call with a GPU wind shader, positional audio synthesized entirely in the Web Audio API without a single sound file, and a graphics quality switch that scales render resolution and post-processing for weaker machines.
@@ -86,6 +84,8 @@ An interactive night forest scene, built as a 3D site menu. Procedural terrain d
 ![Web Audio](https://img.shields.io/badge/Web%20Audio%20API-f0883e?style=flat&logoColor=white)
 
 ### Bachelor's Thesis: Universal Robot Control Interface
+
+[![Bachelor's Thesis preview](assets/forest-road.gif)]
 
 A universal pick-and-place interface for three real robot arms (Franka Panda, Kinova Gen3, UR5e). Motion planning through MoveIt 2 and OMPL, full gripper control, and a C#/Python bridge connecting Unity to ROS 2.
 
