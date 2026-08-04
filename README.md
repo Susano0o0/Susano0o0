@@ -85,7 +85,7 @@ An interactive night forest scene, built as a 3D site menu. Procedural terrain d
 
 ### Bachelor's Thesis: Universal Robot Control Interface
 
-[![Bachelor's Thesis preview](assets/robotic-simulation.gif)]
+![Bachelor's Thesis preview](assets/robotic-simulation.gif)
 
 A universal pick-and-place interface for three real robot arms (Franka Panda, Kinova Gen3, UR5e). Motion planning through MoveIt 2 and OMPL, full gripper control, and a C#/Python bridge connecting Unity to ROS 2.
 
