@@ -75,7 +75,7 @@ I work with AI coding assistants as a daily part of my workflow, for pair progra
 
 </div>
 
-An interactive nighttime forest scene implemented as a 3D website menu. A procedurally generated landscape controlled by a single elevation function, 2,600 fir trees rendered in a single call using a wind shader on the GPU, positional audio fully synthesized using the Web Audio API without a single sound file, and a graphics quality toggle that scales the rendering resolution and post-processing for less powerful computers.
+An interactive night forest scene, built as a 3D site menu. Procedural terrain driven by a height function, 2600 instanced spruce trees rendered in one draw call with a GPU wind shader, positional audio synthesized entirely in the Web Audio API without a single sound file, and a graphics quality switch that scales render resolution and post-processing for weaker machines.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-049ef4?style=flat&logo=threedotjs&logoColor=white)
@@ -102,15 +102,3 @@ A universal pick-and-place interface for any robot arm (tested on Franka Panda U
 | [**sorting-algorithms**](https://github.com/wiebe-alexander/sorting-algorithms)         | Bubble, selection, insertion, merge, quick and heap sort in C, with animated GIFs rendered by a Python recorder. The architecture keeps the C algorithms free of any graphics dependencies. |
 | [**pathfinding-algorithms**](https://github.com/wiebe-alexander/pathfinding-algorithms) | BFS, Dijkstra, Greedy Best-First and A* on a grid, plus RRT and RRT* in continuous space. Rendered to GIFs using only the JDK. A direct link to the planners inside MoveIt and OMPL.        |
 | [**numerical-methods**](https://github.com/wiebe-alexander/numerical-methods)           | Interpolation (Runge phenomenon, cubic splines), FFT from scratch against an O(N²) DFT, and gradient descent / Newton on the Rosenbrock function. All verified against NumPy references.    |
-
----
-
-## Languages
-
-<div align="center">
-
-![German](https://img.shields.io/badge/German-C1-388bfd?style=for-the-badge&labelColor=0d1117)
-![English](https://img.shields.io/badge/English-C1-3fb950?style=for-the-badge&labelColor=0d1117)
-![Russian](https://img.shields.io/badge/Russian-Native-e3b341?style=for-the-badge&labelColor=0d1117)
-
-</div>
