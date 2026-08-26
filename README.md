@@ -75,6 +75,8 @@ I work with AI coding assistants as a daily part of my workflow, for pair progra
 
 </div>
 
+[Live demo](https://3d-forest-road.vercel.app/)
+
 An interactive night forest scene, built as a 3D site menu. Procedural terrain driven by a height function, 2600 instanced spruce trees rendered in one draw call with a GPU wind shader, positional audio synthesized entirely in the Web Audio API without a single sound file, and a graphics quality switch that scales render resolution and post-processing for weaker machines.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
@@ -102,6 +104,8 @@ A universal pick-and-place interface for any robot arm (tested on Franka Panda U
 [![Coastal Guesthouse preview](assets/screenshot-desktop.jpg)](https://coastal-guesthouse-template.vercel.app/)
 
 </div>
+
+[Live demo](https://coastal-guesthouse-template.vercel.app/)
 
 A bilingual booking site for a small hotel, built as a reusable template. Server-side i18n with next-intl and no locale flash, a custom availability engine that matches guests to room combinations and prices them by season, accessible dialogs and forms validated with Zod.
 
