@@ -95,6 +95,29 @@ A universal pick-and-place interface for any robot arm (tested on Franka Panda U
 ![MoveIt 2](https://img.shields.io/badge/MoveIt%202-1f9e7a?style=flat&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-e6edf3?style=flat&logo=unity&logoColor=0d1117)
 
+### Coastal Guesthouse Template
+
+<div align="center">
+
+[![Coastal Guesthouse preview](assets/screenshot-desktop.jpg)](https://coastal-guesthouse-template.vercel.app/)
+
+</div>
+
+A bilingual booking site for a small hotel, built as a reusable template. Server-side i18n with next-intl and no locale flash, a custom availability engine that matches guests to room combinations and prices them by season, accessible dialogs and forms validated with Zod.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-e6edf3?style=flat&logo=nextdotjs&logoColor=0d1117)
+![Tailwind](https://img.shields.io/badge/Tailwind-38bdf8?style=flat&logo=tailwindcss&logoColor=0d1117)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-e6edf3?style=flat&logo=shadcnui&logoColor=0d1117)
+![next-intl](https://img.shields.io/badge/next--intl-1f9e7a?style=flat&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3068b7?style=flat&logo=zod&logoColor=white)
+
+<div align="center">
+
+![Lighthouse report](assets/lighthouse.jpg)
+
+</div>
+
 ### Algorithms and numerical methods
 
 | Repository                                                                              | What it demonstrates                                                                                                                                                                        |
