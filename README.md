@@ -119,6 +119,7 @@ A bilingual booking site for a small hotel, built as a reusable template. Server
 <div align="center">
 
 ![Lighthouse report](assets/lighthouse.jpg)
+<sub>Lighthouse audit, production build via PageSpeed Insights</sub>
 
 </div>
 
