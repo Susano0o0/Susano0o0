@@ -4,8 +4,7 @@
 
 **B.Sc. Computer Science · TU Berlin**
 
-Robotics simulation, motion planning, full-stack web development and real-time 3D on the web.
-Building things at the intersection of ROS 2, Unity and WebGL.
+Beginner programmer and software developer. Learning through practical experience.
 
 [![Email](https://img.shields.io/badge/alexanderwiebe.98%40gmail.com-0d1117?style=flat&logo=gmail&logoColor=f85149)](mailto:alexanderwiebe.98@gmail.com)
 [![Location](https://img.shields.io/badge/Berlin%2C%20Germany-0d1117?style=flat&logo=googlemaps&logoColor=388bfd)](https://maps.app.goo.gl/Berlin)
@@ -16,11 +15,30 @@ Building things at the intersection of ROS 2, Unity and WebGL.
 
 ## About
 
-I am a Computer Science B.Sc. student at TU Berlin with a background in robotics simulation and software engineering. My bachelor's thesis was a control and testing interface for robot arms in Unity and ROS 2, designed to work with any manipulator that ships a URDF description and implemented and tested on the Franka Panda. It covers motion planning with MoveIt 2 and OMPL, trajectory execution, gripper control and a C#/Python bridge, and takes user-written Python scripts as the workload. I wrote a pick-and-place routine as the reference example.
+I am a Computer Science student at TU Berlin, and fairly early in all of this.
+Most of what I actually know, I learned by building something, breaking it, and
+then figuring out why it broke.
 
-Lately most of my building happens in the browser: interactive 3D scenes with React Three Fiber and Three.js, where the same problems I met in simulation (geometry, camera control, level of detail, frame budgets) show up again, just with a much smaller performance budget.
+My bachelor's thesis was a control and testing interface for robot arms in Unity
+and ROS 2, designed to work with any manipulator that ships a URDF description and
+implemented and tested on the Franka Panda. It covers motion planning with MoveIt 2
+and OMPL, trajectory execution, gripper control and a C#/Python bridge, and takes
+user-written Python scripts as the workload. I wrote a pick-and-place routine as
+the reference example.
 
-I work with AI coding assistants as a daily part of my workflow, for pair programming, code review and rapid prototyping. I treat generated code the way I treat any other contribution: read it, verify it, and rewrite whatever does not hold up.
+These days I mostly build small things, on my own or together with a friend:
+interactive 3D scenes with React Three Fiber and Three.js, website templates,
+small visualisations of algorithms I wanted to understand properly. The 3D work
+turned out to be a nice surprise, because the same problems I met in simulation
+(geometry, camera control, level of detail, frame budgets) show up again in the
+browser, just with far less performance to spend.
+
+I use AI coding assistants every day, for pair programming, code review and quick
+prototyping. I treat generated code the way I treat any other contribution: read
+it, verify it, and rewrite whatever does not hold up. It speeds me up, it does not
+think for me.
+
+Right now I am generally trying to find my footing in this field.
 
 ---
 
