@@ -16,7 +16,7 @@ Building things at the intersection of ROS 2, Unity and WebGL.
 
 ## About
 
-I am a Computer Science B.Sc. student at TU Berlin with a background in robotics simulation and software engineering. My bachelor's thesis was a universal robot control interface in Unity and ROS 2 for pick-and-place automation for any robot arms (tested on Franka Panda URFD model), covering the full pipeline from motion planning with MoveIt 2 and OMPL down to gripper control and a C#/Python bridge.
+I am a Computer Science B.Sc. student at TU Berlin with a background in robotics simulation and software engineering. My bachelor's thesis was a control and testing interface for robot arms in Unity and ROS 2, designed to work with any manipulator that ships a URDF description and implemented and tested on the Franka Panda. It covers motion planning with MoveIt 2 and OMPL, trajectory execution, gripper control and a C#/Python bridge, and takes user-written Python scripts as the workload. I wrote a pick-and-place routine as the reference example.
 
 Lately most of my building happens in the browser: interactive 3D scenes with React Three Fiber and Three.js, where the same problems I met in simulation (geometry, camera control, level of detail, frame budgets) show up again, just with a much smaller performance budget.
 
@@ -89,7 +89,7 @@ An interactive night forest scene, built as a 3D site menu. Procedural terrain d
 
 ![Bachelor's Thesis preview](assets/robotic-simulation.gif)
 
-A universal pick-and-place interface for any robot arm (tested on Franka Panda URFD model). Motion planning through MoveIt 2 and OMPL, full gripper control, and a C#/Python bridge connecting Unity to ROS 2.
+A control and testing interface for robot arms, built against a manipulator's URDF description rather than against one specific robot, so a new arm can be loaded from its own URDF. Implemented and tested on the Franka Panda. Motion planning through MoveIt 2 and OMPL, full gripper control, and a C#/Python bridge connecting Unity to ROS 2. Tasks are driven by Python scripts on the ROS side; a pick-and-place routine ships as the reference example.
 
 ![C#](https://img.shields.io/badge/C%23-512bd4?style=flat&logo=csharp&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776ab?style=flat&logo=python&logoColor=white)
@@ -128,5 +128,5 @@ A bilingual booking site for a small hotel, built as a reusable template. Server
 | Repository                                                                              | What it demonstrates                                                                                                                                                                        |
 | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [**sorting-algorithms**](https://github.com/wiebe-alexander/sorting-algorithms)         | Bubble, selection, insertion, merge, quick and heap sort in C, with animated GIFs rendered by a Python recorder. The architecture keeps the C algorithms free of any graphics dependencies. |
-| [**pathfinding-algorithms**](https://github.com/wiebe-alexander/pathfinding-algorithms) | BFS, Dijkstra, Greedy Best-First and A* on a grid, plus RRT and RRT* in continuous space. Rendered to GIFs using only the JDK. A direct link to the planners inside MoveIt and OMPL.        |
+| [**pathfinding-algorithms**](https://github.com/wiebe-alexander/pathfinding-algorithms) | BFS, Dijkstra, Greedy Best-First and A* on a grid, plus RRT and RRT* in continuous space. Rendered to GIFs using only the JDK. The same family of sampling-based planners that OMPL uses inside MoveIt.    |
 | [**numerical-methods**](https://github.com/wiebe-alexander/numerical-methods)           | Interpolation (Runge phenomenon, cubic splines), FFT from scratch against an O(N²) DFT, and gradient descent / Newton on the Rosenbrock function. All verified against NumPy references.    |
