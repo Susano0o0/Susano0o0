@@ -17,9 +17,9 @@ Software developer in the making. Learning through practical experience.
 
 I am a Computer Science student at TU Berlin, finishing my bachelor's degree.
 Most of what I actually know, I learned by building something, breaking it, 
-working out why it broke and then fixing it properly. I care about two things 
-in equal measure: that it works, and that it looks aesthetically appealing and 
-user-friendly.
+working out why it broke and then fixing it properly, so that each project 
+ends up a little better than the one before it. I care about two things in 
+equal measure: that it works, and that it is pleasant to look at and to use.
 
 My bachelor's thesis was a control and testing interface for robot arms in Unity
 and ROS 2, designed to work with any manipulator that ships a URDF description,
@@ -43,7 +43,7 @@ prototyping. I treat generated code the way I treat any other contribution: read
 it, verify it, and rewrite whatever does not hold up. It speeds me up, it does not
 think for me.
 
-Right now I am generally trying to find my footing in this field.
+There is a lot I still want to learn, and that is mostly what keeps this interesting.
 
 ---
 
@@ -90,9 +90,7 @@ Right now I am generally trying to find my footing in this field.
 
 ## Projects
 
-### Forest Road
-
-![Private repository](https://img.shields.io/badge/private%20repo-8b949e?style=flat&logo=github&logoColor=white)
+### Forest Road &nbsp; &nbsp; ![Private repository](https://img.shields.io/badge/private%20repo-8b949e?style=flat&logo=github&logoColor=white)
 
 <div align="center">
 
@@ -110,9 +108,7 @@ An interactive night forest scene, built as a 3D site menu. Procedural terrain d
 ![GLSL](https://img.shields.io/badge/GLSL-990000?style=flat&logo=webgl&logoColor=white)
 ![Web Audio](https://img.shields.io/badge/Web%20Audio%20API-f0883e?style=flat&logoColor=white)
 
-### Bachelor's Thesis: Universal Robot Control Interface
-
-![Private repository](https://img.shields.io/badge/private%20repo-8b949e?style=flat&logo=github&logoColor=white)
+### Bachelor's Thesis: Universal Robot Control Interface &nbsp; &nbsp; ![Private repository](https://img.shields.io/badge/private%20repo-8b949e?style=flat&logo=github&logoColor=white)
 
 ![Bachelor's Thesis preview](assets/robotic-simulation.gif)
 
@@ -124,9 +120,7 @@ A control and testing interface for robot arms, built against a manipulator's UR
 ![MoveIt 2](https://img.shields.io/badge/MoveIt%202-1f9e7a?style=flat&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-e6edf3?style=flat&logo=unity&logoColor=0d1117)
 
-### Coastal Guesthouse Template
-
-![Team project](https://img.shields.io/badge/team%20project-8b949e?style=flat&logo=github&logoColor=white)
+### Coastal Guesthouse Template &nbsp; &nbsp; ![Team project](https://img.shields.io/badge/team%20project-8b949e?style=flat&logo=github&logoColor=white)
 
 <div align="center">
 
@@ -152,7 +146,7 @@ A bilingual booking site for a small hotel, built as a reusable template. Server
 
 </div>
 
-#### Sorting Algorithms
+### [Sorting Algorithms](https://github.com/wiebe-alexander/sorting-algorithms)
 
 Bubble, selection, insertion, merge, quick and heap sort in C, recorded frame by
 frame and rendered to GIFs by a Python script. The C side stays free of any
@@ -160,18 +154,16 @@ graphics dependencies.
 
 ![C](https://img.shields.io/badge/C-a8b9cc?style=flat&logo=c&logoColor=0d1117)
 ![Python](https://img.shields.io/badge/Python-3776ab?style=flat&logo=python&logoColor=white)
-[![Repository](https://img.shields.io/badge/repository-0d1117?style=flat&logo=github&logoColor=white)](https://github.com/wiebe-alexander/sorting-algorithms)
 
-#### Pathfinding Algorithms
+### [Pathfinding Algorithms](https://github.com/wiebe-alexander/pathfinding-algorithms)
 
 BFS, Dijkstra, Greedy Best-First and A* on a grid, plus RRT and RRT* in continuous
 space, rendered to GIFs using only the JDK. The same family of sampling-based
 planners that OMPL uses inside MoveIt.
 
 ![Java](https://img.shields.io/badge/Java-e76f00?style=flat&logo=openjdk&logoColor=white)
-[![Repository](https://img.shields.io/badge/repository-0d1117?style=flat&logo=github&logoColor=white)](https://github.com/wiebe-alexander/pathfinding-algorithms)
 
-#### Numerical Methods
+### [Numerical Methods](https://github.com/wiebe-alexander/numerical-methods)
 
 Interpolation with the Runge phenomenon and cubic splines, an FFT written from
 scratch against an O(N²) DFT, and gradient descent and Newton on the Rosenbrock
@@ -179,4 +171,3 @@ function. All verified against NumPy references.
 
 ![Python](https://img.shields.io/badge/Python-3776ab?style=flat&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-4d77cf?style=flat&logo=numpy&logoColor=white)
-[![Repository](https://img.shields.io/badge/repository-0d1117?style=flat&logo=github&logoColor=white)](https://github.com/wiebe-alexander/numerical-methods)
