@@ -4,7 +4,7 @@
 
 **B.Sc. Computer Science · TU Berlin**
 
-Beginner programmer and software developer. Learning through practical experience.
+Software developer in the making. Learning through practical experience.
 
 [![Email](https://img.shields.io/badge/alexanderwiebe.98%40gmail.com-0d1117?style=flat&logo=gmail&logoColor=f85149)](mailto:alexanderwiebe.98@gmail.com)
 [![Location](https://img.shields.io/badge/Berlin%2C%20Germany-0d1117?style=flat&logo=googlemaps&logoColor=388bfd)](https://maps.app.goo.gl/Berlin)
@@ -15,23 +15,28 @@ Beginner programmer and software developer. Learning through practical experienc
 
 ## About
 
-I am a Computer Science student at TU Berlin, and fairly early in all of this.
-Most of what I actually know, I learned by building something, breaking it, and
-then figuring out why it broke.
+I am a Computer Science student at TU Berlin, finishing my bachelor's degree.
+Most of what I actually know, I learned by building something, breaking it, 
+working out why it broke and then fixing it properly. I care about two things 
+in equal measure: that it works, and that it looks aesthetically appealing and 
+user-friendly.
 
 My bachelor's thesis was a control and testing interface for robot arms in Unity
-and ROS 2, designed to work with any manipulator that ships a URDF description and
+and ROS 2, designed to work with any manipulator that ships a URDF description,
 implemented and tested on the Franka Panda. It covers motion planning with MoveIt 2
 and OMPL, trajectory execution, gripper control and a C#/Python bridge, and takes
 user-written Python scripts as the workload. I wrote a pick-and-place routine as
 the reference example.
 
-These days I mostly build small things, on my own or together with a friend:
-interactive 3D scenes with React Three Fiber and Three.js, website templates,
-small visualisations of algorithms I wanted to understand properly. The 3D work
-turned out to be a nice surprise, because the same problems I met in simulation
-(geometry, camera control, level of detail, frame budgets) show up again in the
-browser, just with far less performance to spend.
+These days I build projects on my own and in a small team. I wanted to work with
+3D on the web, so I built an interactive scene with React Three Fiber and Three.js.
+On the web development side, I built a bilingual booking site for a guesthouse
+together with a friend. Alongside that, there are visualisations of the algorithms
+and numerical methods I worked through at university, written from scratch rather
+than imported.
+
+Most of these projects are private repositories, so the previews and live demos
+below are the way in.
 
 I use AI coding assistants every day, for pair programming, code review and quick
 prototyping. I treat generated code the way I treat any other contribution: read
@@ -87,6 +92,8 @@ Right now I am generally trying to find my footing in this field.
 
 ### Forest Road
 
+![Private repository](https://img.shields.io/badge/private%20repo-8b949e?style=flat&logo=github&logoColor=white)
+
 <div align="center">
 
 [![Forest Road preview](assets/forest-road.gif)](https://3d-forest-road.vercel.app/)
@@ -105,6 +112,8 @@ An interactive night forest scene, built as a 3D site menu. Procedural terrain d
 
 ### Bachelor's Thesis: Universal Robot Control Interface
 
+![Private repository](https://img.shields.io/badge/private%20repo-8b949e?style=flat&logo=github&logoColor=white)
+
 ![Bachelor's Thesis preview](assets/robotic-simulation.gif)
 
 A control and testing interface for robot arms, built against a manipulator's URDF description rather than against one specific robot, so a new arm can be loaded from its own URDF. Implemented and tested on the Franka Panda. Motion planning through MoveIt 2 and OMPL, full gripper control, and a C#/Python bridge connecting Unity to ROS 2. Tasks are driven by Python scripts on the ROS side; a pick-and-place routine ships as the reference example.
@@ -117,11 +126,13 @@ A control and testing interface for robot arms, built against a manipulator's UR
 
 ### Coastal Guesthouse Template
 
+![Team project](https://img.shields.io/badge/team%20project-8b949e?style=flat&logo=github&logoColor=white)
+
 <div align="center">
 
 [![Coastal Guesthouse preview](assets/screenshot-desktop.jpg)](https://coastal-guesthouse-template.vercel.app/)
 
-[![Open live demo](https://img.shields.io/badge/OPEN%20LIVE%20DEMO-a371f7?style=for-the-badge&logo=vercel&logoColor=white&labelColor=3068b7)](https://coastal-guesthouse-template.vercel.app/)
+[![Open live demo](https://img.shields.io/badge/OPEN%20LIVE%20DEMO-38bdf8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)](https://coastal-guesthouse-template.vercel.app/)
 
 </div>
 
@@ -141,10 +152,31 @@ A bilingual booking site for a small hotel, built as a reusable template. Server
 
 </div>
 
-### Algorithms and numerical methods
+#### Sorting Algorithms
 
-| Repository                                                                              | What it demonstrates                                                                                                                                                                        |
-| --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**sorting-algorithms**](https://github.com/wiebe-alexander/sorting-algorithms)         | Bubble, selection, insertion, merge, quick and heap sort in C, with animated GIFs rendered by a Python recorder. The architecture keeps the C algorithms free of any graphics dependencies. |
-| [**pathfinding-algorithms**](https://github.com/wiebe-alexander/pathfinding-algorithms) | BFS, Dijkstra, Greedy Best-First and A* on a grid, plus RRT and RRT* in continuous space. Rendered to GIFs using only the JDK. The same family of sampling-based planners that OMPL uses inside MoveIt.    |
-| [**numerical-methods**](https://github.com/wiebe-alexander/numerical-methods)           | Interpolation (Runge phenomenon, cubic splines), FFT from scratch against an O(N²) DFT, and gradient descent / Newton on the Rosenbrock function. All verified against NumPy references.    |
+Bubble, selection, insertion, merge, quick and heap sort in C, recorded frame by
+frame and rendered to GIFs by a Python script. The C side stays free of any
+graphics dependencies.
+
+![C](https://img.shields.io/badge/C-a8b9cc?style=flat&logo=c&logoColor=0d1117)
+![Python](https://img.shields.io/badge/Python-3776ab?style=flat&logo=python&logoColor=white)
+[![Repository](https://img.shields.io/badge/repository-0d1117?style=flat&logo=github&logoColor=white)](https://github.com/wiebe-alexander/sorting-algorithms)
+
+#### Pathfinding Algorithms
+
+BFS, Dijkstra, Greedy Best-First and A* on a grid, plus RRT and RRT* in continuous
+space, rendered to GIFs using only the JDK. The same family of sampling-based
+planners that OMPL uses inside MoveIt.
+
+![Java](https://img.shields.io/badge/Java-e76f00?style=flat&logo=openjdk&logoColor=white)
+[![Repository](https://img.shields.io/badge/repository-0d1117?style=flat&logo=github&logoColor=white)](https://github.com/wiebe-alexander/pathfinding-algorithms)
+
+#### Numerical Methods
+
+Interpolation with the Runge phenomenon and cubic splines, an FFT written from
+scratch against an O(N²) DFT, and gradient descent and Newton on the Rosenbrock
+function. All verified against NumPy references.
+
+![Python](https://img.shields.io/badge/Python-3776ab?style=flat&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-4d77cf?style=flat&logo=numpy&logoColor=white)
+[![Repository](https://img.shields.io/badge/repository-0d1117?style=flat&logo=github&logoColor=white)](https://github.com/wiebe-alexander/numerical-methods)
